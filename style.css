@@ -1,0 +1,205 @@
+body{
+  background-color:white;
+  width:100%;
+}
+
+.navbar{
+  /*background-image: url("./stars.jpg");*/
+  margin-bottom:0;
+}
+
+.row{
+  margin:0;
+}
+
+.container{
+  margin:0px;
+  width:100%;
+}
+
+.jumbotron{
+  clear:both;
+  background-image: url("./stars.jpg");
+  background-size: cover;
+  background-position: 50% 40%;
+  color:#F3EEE9;
+  height: 400px;
+  margin:0;
+  padding-top:8%;
+}
+
+.container-fluid .jumbotron{
+  border-radius: 0px;
+}
+
+.jumbotron p{
+  color:#3474bb;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container-fluid{
+  padding:0;
+}
+
+.top-pics{
+  padding:0;
+  background-image: url("./stars.jpg");
+  margin: 0 auto;
+}
+
+.top-pics .row div{
+  display:flex;
+  max-height:400px;
+  padding:0;
+}
+.top-pics .row div image{
+  flex-grow:1;
+}
+
+.divider1{
+  background-image:url("./stars.jpg");
+  background-size: cover;
+  min-height:200px;
+  text-align: center;
+  color:#121D9F;
+  font-size: 1.3em;
+  clip-path: polygon(0% 0%, 100% 80%, 100% 100%, 100% 0%);
+}
+
+.divider2{
+  background-image:url("./stars.jpg");
+  background-size: cover;
+  min-height:400px;
+  margin-top: 1%;
+  text-align: center;
+  color:#121D9F;
+  font-size: 1.3em;
+  clip-path: polygon(0% 20%, 100% 50%, 0% 80%);
+}
+
+.divider4{
+  background-image:url("./stars.jpg");
+  background-size: cover;
+  min-height:200px;
+  margin-top: 2%;
+  text-align: center;
+  color:#121D9F;
+  font-size: 1.3em;
+  clip-path: polygon(0% 100%, 100% 20%, 100% 100%, 0% 100%);
+}
+
+.info{
+  background-image:url("./stars.jpg");
+  background-size: cover;
+  min-height:500px;
+}
+
+h2, h1{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+p,a,h3{
+  font-family: 'Padauk', sans-serif;
+}
+
+.moreinformation{
+  border-top: 2px solid black;
+  border-bottom:2px solid black;
+  min-height:300px;
+  text-align: center;
+  color:#140a2f;
+}
+
+.moreinformation p{
+  font-size: 20px;
+}
+
+.further-links{
+  margin-top:2%;
+  background-image:url("./stars.jpg");
+  background-size: cover;
+  min-height:500px;
+  padding-top:150px;
+  clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%)
+}
+
+.further-links div{
+  border-right: 1px solid #849DBB;
+  color:#3474bb;
+}
+
+.further-links div ul{
+  font-size: 20px;
+  list-style: none;
+  padding:0;
+}
+
+.further-links div ul li{
+  text-align: center;
+}
+
+.further-links div ul li a{
+  color:white;
+}
+
+.further-links .row :last-child{
+  border:none;
+}
+
+.further-links .col-xs-12{
+  border-right:none;
+}
+
+i{
+  color:white;
+}
+
+.footer{
+  margin:4%;
+  min-height:200px;
+}
+
+.footer section{
+  border-top: 1px solid #849DBB;
+}
+
+.social-media{
+  display:flex;
+  justify-content: space-around;
+  margin:0;
+  padding-top:2%;
+  padding-bottom:2%;
+  /*border-right: 1px solid #849DBB;*/
+}
+
+.contact-info{
+  display:block;
+  margin:0;
+  padding-top:2%;
+  color:white;
+  text-align: center;
+}
+
+.contact-info h3{
+  color: #3474bb;
+}
+
+.caption{
+  position:absolute;
+  width:100%;
+  bottom:0;
+}
+
+.caption p{
+  margin:0 auto;
+  color:white;
+  font-family: 'Raleway', sans-serif;
+  font-size:1.2em;
+}
+
+.thumbnail{
+  border:none;
+}
